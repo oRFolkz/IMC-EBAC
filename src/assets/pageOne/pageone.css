@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: gainsboro;
+}
+
+.peso,.altura {
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border: 3px solid black;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.altura::placeholder,.peso::placeholder {
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.tabela{
+    width: 40%;
+    border: 1px solid black;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+
+.lineActive {
+    border: 2px solid red;
+    border-radius: .5rem;
+    color: red;
+}
+
+h6 {
+    font-size: .8rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+a {
+    padding: .2rem;
+}
